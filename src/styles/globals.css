@@ -1,1 +1,44 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
+
+.full-height {
+  height: 100vh;
+}
+
+.black {
+  background-color: black;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.lights {
+  height: 5rem;
+  width: 5rem;
+}
+.traffic-light-container {
+  width: 50px; /* Adjust the width as needed */
+  height: 150px; /* Adjust the height as needed */
+}
+
+.light {
+  width: 100%; /* Make each light fill the width of the container */
+  height: 50px; /* Set the height of each light */
+  border-radius: 50%; /* Make each light circular */
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.light.active {
+  border: 2px solid black; /* Add border to active light */
+}
